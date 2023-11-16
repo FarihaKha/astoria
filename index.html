@@ -2,50 +2,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astoria</title>
+  <title>Astoria</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
 </head>
+
 <body>
-    <header>
-        <div class="homeBox">
-          <br>
-          <h1>Astoria</h1>
-          <h2>Fariha Kha</h2>
+  <header>
+    <div class="homeBox">
+      <br>
+      <h1>Astoria</h1>
+      <h2>Fariha Kha</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#hc2">Demographics</a></li>
+        <li><a href="#hc3">Clean Heat Program Overview</a></li>
+        <li><a href="#hc4">NYC Emissions Report</a></li>
+        <li><a href="#hc7_8">Data Analysis</a></li>
+        <li><a href="#hc9">Interactive Map</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hc2">
+      <center><h3>HC 2: Neighborhood Analysis</h3></center>
+      <br>
+      <div class="container">
+        <div class="image">
+          <center><img src="hc6.png" alt="HC 6: Highlighted Image"></center>
         </div>
-      </header>
-      <main>
-        <center><h3>HC 2: Neighborhood Analysis</h3></center>
         <br>
-        <div class="container">
-          <div class="image">
-            <center><img src="hc6.png" alt="HC 6: Highlighted Image"></center>
-          </div>
-          <br>
-          <p>Astoria, Queens is a vibrant and diverse neighborhood known for its rich cultural heritage and bustling urban atmosphere. It encompasses several zip codes, including 11101, 11102, 11103, 11105, and 11106. Situated in the northwestern part of Queens, Astoria is easily recognizable on a map of New York City with its distinctiveness highlighted by its proximity to the East River.</p>
-          <p>This middle-class neighborhood boasts a unique blend of residential, commercial, and cultural offerings. Astoria is a melting pot of cultures, attracting residents from various backgrounds, with approximately 48.68% of its population identifying as White, 5.74% as Black, 0.222% as American Indian or Alaska Native, 16.724% as Asian, 0.004% as Native Hawaiian or Pacific Islander, 0.618% as belonging to other racial groups, 3.924% as of two or more races, and 24.086% as Hispanic.</p>
-          <p>In the context of the NYC Clean Heat dataset, Astoria’s income levels and housing trends may offer valuable insights. For instance, in 11105, the median household income is $93,200, with the average household size being 2.49. Comprising 85.74% of 11105, the majority of housing unit structures are multi unit. 44.98% of housing units are paid with a mortgage. The median value for a house is $934,500 and the median gross rent is $1,997. Although landlords are required to provide heat, following their substantial expenditures to live in Astoria, tenants are burdened with the high costs of heating. 1942 is the median year for when structures were built in 11105, which means that buildings are steam-heated—oil or gas is heated in a boiler and the steam is distributed throughout the building. Electric heat is more environmentally conscious, but it would be more expensive than steam heat when taking maintenance and production costs into account. The NYC Clean Heat program recommends installing a heat pump since it is a much more affordable and cleaner option for these kinds of buildings.</p>
-          <br>
-          <center><h3>HC 3: Clean Heat Program Overview</h3></center>
-          <p>The NYC Clean Heat Program stands as an initiative encouraging the switch to cleaner heating fuels among residents and small businesses in New York City. No. 4 and No. 6 fuels, commonly known as heavy or residual fuels, are cost-effective options for industrial use due to their low cost and high energy density, but pose environmental challenges due to their high sulfur content and emissions. The DEP Boiler Registration program monitors boiler operations, specifically targeting soot pollution from oil-burning boilers (No. 4 and No. 6 heating oils) in older buildings, ensuring compliance with safety and environmental standards. The Greener Greater Buildings plan aims to cut greenhouse gas emissions by 30% by 2030, primarily by focusing on the energy use of a limited number of properties in NYC. Buildings can transition to cleaner heating fuels through various means, including the utilization of biofuels blended with petroleum distillate, incentivized by programs like the Clean Heating Fuel credit, offering financial returns based on biodiesel usage. Additionally, buildings have access to resources such as technical assistance, financial aid, and infrastructure upgrades facilitated by organizations like the Environmental Defense Fund, NYC Energy Efficiency Corporation, Con Edison, and National Grid, enabling a smoother transition toward cleaner heating fuels.</p>
-          <br>
-          <center><h3>HC 4: NYC Emissions Report</h3></center>
-          <p>Queens, nestled within New York City, embodies vibrant diversity but struggles with challenges linked to climate change. Its extensive building infrastructure, representing a blend of residential and commercial buildings, significantly contributes to greenhouse gas emissions, making up 35% of NYC's total emissions. This borough's emissions stem mainly from its varied building types, including older structures lacking energy-efficient features. While Queens has shown moderate progress in emissions reduction through cleaner technologies, transportation and building emissions pose significant challenges. The borough's multifaceted emissions profile, comprising residential, commercial, and industrial areas, necessitates tailored solutions for cleaner transportation and building practices. Initiatives such as PlaNYC's strategy to halve transportation emissions by 2030 through cleaner vehicles and enhanced public transit, alongside legislation like the Climate Mobilization Act targeting emissions reductions in buildings, demonstrate NYC's commitment to combatting the climate crisis. Mayor Eric Adams's legislation to reduce meat consumption in hospitals signifies a holistic approach, addressing both environmental sustainability and public health concerns, potentially setting a precedent for global environmental initiatives. These efforts reflect a paradigm shift toward eco-conscious decision-making, fostering a more sustainable future.</p>
-          <br>
-          <center><h3>HC 7&8: Data Analysis</h3></center>
-          <p>The following set of graphs provides a comprehensive visual representation of crucial data extracted from the NYC Clean Heat dataset, specifically focusing on Astoria, encompassing zip codes 11101, 11102, 11103, 11105, and 11106. These charts offer insightful perspectives on various aspects, including the construction periods of structures, the prevalent use of heating fuels, and the correlation between boiler age and fuel consumption. Each graph provides valuable insights into the energy infrastructure of Astoria, shedding light on trends and potential environmental impacts.</p>
-          <center><img src="yrzipastoria.png" alt="Year Built in Astoria Zip Codes"></center>
-          <p>This bar graph shows that structures built in Astoria were built at some point between the 1750 and 2000. The average year for when a structure is built in Astoria is 1928.72. Structures built around this time used steam heat (oil/gas heated in a boiler; stem distributed throughout building). The NYC Clean Heat program recommends installing a heat pump since it is a much more affordable and cleaner option for these kinds of buildings. The oldest seem to be in 11103.</p>
-          <center><img src="primaryfastoria.png" alt="Primary Fuel Type in Astoria"></center>
-          <p>This bar graph shows that a majority of structures in Astoria use No. 4 fuels compared to No. 6 fuels. This makes sense because environmental regulations may restrict the use of No. 6 fuels due to its higher sulfur content. No. 4 fuels emit less sulfur and are more appropriate for heating small residential properties, which are common in Astoria. No. 6 fuels are typically used for large-scale industrial applications and commercial and industrial heating systems.</p>
-          <center><img src="gallonvsboilerage.png" alt="Gallon Usage vs. Boiler Age Range in Astoria"></center>
-          <p>This scatter plot depicts the age range of boilers in Astoria and how many gallons of fuel those boilers have used. Most boilers seem to use between 0 and 100,000 gallons of fuel no matter what age. The boilers that have used the most gallons were between 26 to 30 years old, 31 to 35 years old, and 41 to 45 years old. The data shows that the older a boiler is, the more gallons of fuel are used. This is bad for the environment as it contributes to more greenhouse gas emissions. Updating boilers after a while is important.</p>
-          <center><h3>HC 9: Interactive Map</h3></center>
-          <center><iframe src="astoriaMap.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></center>
-          <br>
-        </div>
-        <div class="homeBottom">
-          <h4>CSCI 127 Recitation</h4>
-          <h4>Dr. Ligorio</h4>
-        </div>
-      </main>
+        <p>Astoria, Queens is a vibrant and diverse neighborhood known for its rich cultural heritage and bustling urban atmosphere. It encompasses several zip codes, including 11101, 11102, 11103, 11105, and 11106. Situated in the northwestern part of Queens, Astoria is easily recognizable on a map of New York City with its distinctiveness highlighted by its proximity to the East River.</p>
+        <p>This middle-class neighborhood boasts a unique blend of residential, commercial, and cultural offerings. Astoria is a melting pot of cultures, attracting residents from various backgrounds, with approximately 48.68% of its population identifying as White, 5.74% as Black, 0.222% as American Indian or Alaska Native, 16.724% as Asian, 0.004% as Native Hawaiian or Pacific Islander, 0.618% as belonging to other racial groups, 3.924% as of two or more races, and 24.086% as Hispanic.</p>
+        <p>In the context of the NYC Clean Heat dataset, Astoria’s income levels and housing trends may offer valuable insights. For instance, in 11105, the median household income is $93,200, with the average household size being 2.49. Comprising 85.74% of 11105, the majority of housing unit structures are multi unit. 44.98% of housing units are paid with a mortgage. The median value for a house is $934,500 and the median gross rent is $1,997. Although landlords are required to provide heat, following their substantial expenditures to live in Astoria, tenants are burdened with the high costs of heating. 1942 is the median year for when structures were built in 11105, which means that buildings are steam-heated—oil or gas is heated in a boiler and the steam is distributed throughout the building. Electric heat is more environmentally conscious, but it would be more expensive than steam heat when taking maintenance and production costs into account. The NYC Clean Heat program recommends installing a heat pump since it is a much more affordable and cleaner option for these kinds of buildings.</p>
+    </section>
+      <br>
+    <section id="hc3">
+      <center><h3>HC 3: Clean Heat Program Overview</h3></center>
+      <p>The NYC Clean Heat Program stands as an initiative encouraging the switch to cleaner heating fuels among residents and small businesses in New York City. No. 4 and No. 6 fuels, commonly known as heavy or residual fuels, are cost-effective options for industrial use due to their low cost and high energy density, but pose environmental challenges due to their high sulfur content and emissions. The DEP Boiler Registration program monitors boiler operations, specifically targeting soot pollution from oil-burning boilers (No. 4 and No. 6 heating oils) in older buildings, ensuring compliance with safety and environmental standards. The Greener Greater Buildings plan aims to cut greenhouse gas emissions by 30% by 2030, primarily by focusing on the energy use of a limited number of properties in NYC. Buildings can transition to cleaner heating fuels through various means, including the utilization of biofuels blended with petroleum distillate, incentivized by programs like the Clean Heating Fuel credit, offering financial returns based on biodiesel usage. Additionally, buildings have access to resources such as technical assistance, financial aid, and infrastructure upgrades facilitated by organizations like the Environmental Defense Fund, NYC Energy Efficiency Corporation, Con Edison, and National Grid, enabling a smoother transition toward cleaner heating fuels.</p>
+    </section>
+    <br>
+    <section id="hc4">
+      <center><h3>HC 4: NYC Emissions Report</h3></center>
+      <p>Queens, nestled within New York City, embodies vibrant diversity but struggles with challenges linked to climate change. Its extensive building infrastructure, representing a blend of residential and commercial buildings, significantly contributes to greenhouse gas emissions, making up 35% of NYC's total emissions. This borough's emissions stem mainly from its varied building types, including older structures lacking energy-efficient features. While Queens has shown moderate progress in emissions reduction through cleaner technologies, transportation and building emissions pose significant challenges. The borough's multifaceted emissions profile, comprising residential, commercial, and industrial areas, necessitates tailored solutions for cleaner transportation and building practices. Initiatives such as PlaNYC's strategy to halve transportation emissions by 2030 through cleaner vehicles and enhanced public transit, alongside legislation like the Climate Mobilization Act targeting emissions reductions in buildings, demonstrate NYC's commitment to combatting the climate crisis. Mayor Eric Adams's legislation to reduce meat consumption in hospitals signifies a holistic approach, addressing both environmental sustainability and public health concerns, potentially setting a precedent for global environmental initiatives. These efforts reflect a paradigm shift toward eco-conscious decision-making, fostering a more sustainable future.</p>
+    </section>
+    <br>
+    <section id="hc7_8">
+      <center><h3>HC 7&8: Data Analysis</h3></center>
+      <p>The following set of graphs provides a comprehensive visual representation of crucial data extracted from the NYC Clean Heat dataset, specifically focusing on Astoria, encompassing zip codes 11101, 11102, 11103, 11105, and 11106. These charts offer insightful perspectives on various aspects, including the construction periods of structures, the prevalent use of heating fuels, and the correlation between boiler age and fuel consumption. Each graph provides valuable insights into the energy infrastructure of Astoria, shedding light on trends and potential environmental impacts.</p>
+      <center><img src="yrzipastoria.png" alt="Year Built in Astoria Zip Codes"></center>
+      <p>This bar graph shows that structures built in Astoria were built at some point between 1750 and 2000. The average year for when a structure is built in Astoria is 1928.72. Structures built around this time used steam heat (oil/gas heated in a boiler; stem distributed throughout the building). The NYC Clean Heat program recommends installing a heat pump since it is a much more affordable and cleaner option for these kinds of buildings. The oldest seems to be in 11103.</p>
+      <center><img src="primaryfastoria.png" alt="Primary Fuel Type in Astoria"></center>
+      <p>This bar graph shows that a majority of structures in Astoria use No. 4 fuels compared to No. 6 fuels. This makes sense because environmental regulations may restrict the use of No. 6 fuels due to its higher sulfur content. No. 4 fuels emit less sulfur and are more appropriate for heating small residential properties, which are common in Astoria. No. 6 fuels are typically used for large-scale industrial applications and commercial and industrial heating systems.</p>
+      <center><img src="gallonvsboilerage.png" alt="Gallon Usage vs. Boiler Age Range in Astoria"></center>
+      <p>This scatter plot depicts the age range of boilers in Astoria and how many gallons of fuel those boilers have used. Most boilers seem to use between 0 and 100,000 gallons of fuel no matter what age. The boilers that have used the most gallons were between 26 to 30 years old, 31 to 35 years old, and 41 to 45 years old. The data shows that the older a boiler is, the more gallons of fuel are used. This is bad for the environment as it contributes to more greenhouse gas emissions. Updating boilers after a while is important.</p>
+    </section>
+    <br>
+    <section id="hc9">
+      <center><h3>HC 9: Interactive Map</h3></center>
+      <center><iframe id="map" src="astoriaMap.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></center>
+    </section>
+    <br>
+    </div>
+    <footer>
+      <div class="homeBottom">
+        <h4>CSCI 127 Recitation</h4>
+        <h4>Dr. Ligorio</h4>
+        <button id="scrollToTopBtn" class="button">Back To Top</button>
+        <script src="script.js"></script>
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
